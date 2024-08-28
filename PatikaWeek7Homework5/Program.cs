@@ -21,7 +21,7 @@
 
             };
 
-            //Groupjoin metodu ile herbir ClassName için grup oluşturuluyor.
+            //Groupjoin metodu ile her bir ClassName için grup oluşturuluyor.
             var classGroup=classList.GroupJoin(studentList,clas=>clas.ClassId,student=>student.ClassId,
                                                (clas,studentGroup) => new
                                                {
